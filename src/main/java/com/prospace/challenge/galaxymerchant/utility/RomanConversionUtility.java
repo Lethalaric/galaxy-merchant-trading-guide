@@ -1,12 +1,9 @@
 package com.prospace.challenge.galaxymerchant.utility;
 
-import com.prospace.challenge.galaxymerchant.model.RomanNumeral;
-
 import java.util.*;
 
 public class RomanConversionUtility {
     private static final List<Character> CANNOT_BE_REPEATED_CODES = Arrays.asList('D', 'L', 'V');
-    private static final List<Character> CAN_BE_REPEATED_CODES = Arrays.asList('I', 'X', 'C', 'M');
     private static final Map<Character, Integer> ROMAN_CODE_INTEGER_MAPPING = new HashMap<>() {{
         put('I', 1);
         put('V', 5);
